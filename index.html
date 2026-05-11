@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ajit Yadav — Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">AY<span class="dot">.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge fade-up delay-1">
+        <span class="badge-dot"></span> Available for opportunities
+      </div>
+
+      <h1 class="hero-title fade-up delay-2">
+        <span class="line">Hi, I'm</span>
+        <span class="line name-line">Ajit<br>Yadav<span class="accent">.</span></span>
+      </h1>
+
+      <p class="hero-sub fade-up delay-3">
+        Full-Stack Developer — MERN Stack &amp; Modern Web
+      </p>
+
+      <p class="hero-desc fade-up delay-4">
+        I build responsive, performant web applications with clean architecture and thoughtful user experiences.
+      </p>
+
+      <div class="hero-cta fade-up delay-5">
+        <a href="projects.html" class="btn btn-primary">View Projects</a>
+        <a href="contact.html" class="btn btn-ghost">Get in Touch →</a>
+      </div>
+
+      <div class="hero-stats fade-up delay-6">
+        <div class="stat">
+          <span class="stat-num">2+</span>
+          <span class="stat-label">Years Coding</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">5+</span>
+          <span class="stat-label">Projects Built</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">8.4</span>
+          <span class="stat-label">CGPA</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual fade-up delay-3">
+      <div class="code-card">
+        <div class="code-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="code-filename">ajit.js</span>
+        </div>
+        <pre class="code-body"><span class="kw">const</span> <span class="var">developer</span> = {
+  name: <span class="str">"Ajit Yadav"</span>,
+  stack: [<span class="str">"React"</span>, <span class="str">"Node"</span>, <span class="str">"MongoDB"</span>],
+  location: <span class="str">"Navi Mumbai 🇮🇳"</span>,
+  passion: <span class="str">"Building for the web"</span>,
+  openTo: <span class="str">"Full-time roles"</span>,
+
+  <span class="fn">greet</span>() {
+    <span class="kw">return</span> <span class="str">`Let's build something
+    amazing together!`</span>;
+  }
+};</pre>
+      </div>
+
+      <div class="floating-tag tag-1">React.js</div>
+      <div class="floating-tag tag-2">Node.js</div>
+      <div class="floating-tag tag-3">MongoDB</div>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>MERN Stack</span><span class="sep">✦</span>
+      <span>React.js</span><span class="sep">✦</span>
+      <span>Node.js</span><span class="sep">✦</span>
+      <span>Express.js</span><span class="sep">✦</span>
+      <span>MongoDB</span><span class="sep">✦</span>
+      <span>REST APIs</span><span class="sep">✦</span>
+      <span>Full Stack Dev</span><span class="sep">✦</span>
+      <span>MERN Stack</span><span class="sep">✦</span>
+      <span>React.js</span><span class="sep">✦</span>
+      <span>Node.js</span><span class="sep">✦</span>
+      <span>Express.js</span><span class="sep">✦</span>
+      <span>MongoDB</span><span class="sep">✦</span>
+      <span>REST APIs</span><span class="sep">✦</span>
+      <span>Full Stack Dev</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- FEATURED PROJECTS PREVIEW -->
+  <section class="section featured">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Featured Work</span>
+        <h2 class="section-title">Projects I've Built</h2>
+      </div>
+
+      <div class="project-grid">
+
+        <div class="project-card card-large reveal">
+          <div class="project-num">01</div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>React</span><span>Node.js</span><span>MongoDB</span>
+            </div>
+            <h3>NeuraRealm</h3>
+            <p>A fully responsive MERN stack web platform with accessibility features, dynamic routing, and AI integrations. Engineered during internship at Techiolaza Innovations.</p>
+            <a href="projects.html" class="project-link">View Details →</a>
+          </div>
+          <div class="project-accent accent-teal"></div>
+        </div>
+
+        <div class="project-card reveal delay-1">
+          <div class="project-num">02</div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>React</span><span>Express</span><span>REST API</span>
+            </div>
+            <h3>TradeHub</h3>
+            <p>Educational trading platform with live charts, virtual currency, and secure authentication.</p>
+            <a href="projects.html" class="project-link">View Details →</a>
+          </div>
+          <div class="project-accent accent-amber"></div>
+        </div>
+
+      </div>
+
+      <div class="section-footer">
+        <a href="projects.html" class="btn btn-outline">See All Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE STRIP -->
+  <section class="section experience-strip">
+    <div class="container">
+      <div class="exp-card reveal">
+        <div class="exp-icon">💼</div>
+        <div class="exp-text">
+          <span class="exp-role">Full Stack Web Developer Intern</span>
+          <span class="exp-company">Techiolaza Innovations · Jul – Oct 2025</span>
+        </div>
+        <div class="exp-badge">MERN Stack</div>
+      </div>
+      <div class="exp-card reveal delay-1">
+        <div class="exp-icon">🎓</div>
+        <div class="exp-text">
+          <span class="exp-role">Java Full Stack Developer</span>
+          <span class="exp-company">EduBridge — Capgemini × SAP · Jul 2025</span>
+        </div>
+        <div class="exp-badge">Certified</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-logo">AY<span class="dot">.</span></span>
+      <p>© 2025 Ajit Yadav. Built with ❤️ and clean code.</p>
+      <div class="footer-links">
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="mailto:ajityadav4598@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
